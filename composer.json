@@ -1,0 +1,24 @@
+{
+    "name": "mageplaza/helloworld",
+    "description": "Mageplaza helloworld Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "Ajith M A",
+        "email": "ajithma@ceymox.com",
+        "homepage": "https://www.ceymox.com"
+      }
+    ],
+    "license": [
+      "Commercial"
+    ],
+    "autoload": {
+      "files": [
+        "src/registration.php"
+      ],
+      "psr-4": {
+        "Mageplaza_\\HelloWorld\\": "src"
+      }
+    }
+  }
